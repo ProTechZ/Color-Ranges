@@ -11,11 +11,8 @@ for (let i = 0; i < 101; i++) {
 
     if (i < 60) {
         n.style.color = `white`;
-        m.style.border = '3px solid white';
-    } else {
-        n.style.color = `black`;
-        m.style.border = '3px solid black';
-    }
+        m.style.borderColor = 'white';
+    } 
 
     m.appendChild(n);
     grayscaleSection.appendChild(m);
