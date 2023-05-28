@@ -1,0 +1,33 @@
+.range-btn {
+    padding: 0.25rem 1rem;
+    font-size: 0.9rem;
+    margin: 1.5rem 0.25rem 1rem 0.25rem;
+    border-radius: 4px;
+    border: 1.5px solid black;
+}
+
+p {
+    text-align: center;
+    font-size: x-large;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title {
+    background-image: repeating-linear-gradient(25deg, #1c1c1c, #797979, #1c1c1c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.grayscale-ranges {
+    float: left;
+    margin: 1rem 0 1rem 1rem;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 5rem;
+}
+
+body {
+    background-color: rgb(135, 246, 211);
+    text-align: center;
+    font-family: 'Lucida Sans', sans-serif;
+}
